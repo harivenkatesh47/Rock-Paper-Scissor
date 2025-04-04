@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }        
+        /* Resets margin and padding for all elements and centers text */
+  
+  h1 {
+    background-color: #1f3108;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem; 
+  }
+         /* Creates a header with a dark background, white text, and centers the text vertically */
+
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+            /* Styles the circle options with flexbox and centers the content */
+  
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  } 
+             /* Changes background and cursor on hover */
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+        /* Styles images inside the choice container to be circular */
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem; 
+  }
+        /* Aligns the choice elements in a row with space between them */
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem; 
+  }
+        /* Creates a flex container for the score board with spacing between the user and computer scores */
+  
+  #user-score,
+  #comp-score {
+    font-size: 4rem; 
+  }
+
+        /* Increases the font size of the scores */
+  
+  .msg-container {
+    margin-top: 5rem; 
+  }
+        /* Adds top margin for the message container */
+
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem; 
+  }
+        /* Styles the message box with background, padding, and rounded corners */
+  
